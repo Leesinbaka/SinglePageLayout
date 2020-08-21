@@ -1,0 +1,16 @@
+
+cd to target folder
+
+www file port 3000 --> 8000
+
+---git init
+
+git commit -m "My first commit"
+
+heroku create
+
+heroku git:remote -a <heroku create 有個名>
+
+git push heroku master
+
+https://devcenter.heroku.com/articles/git#deploying-code
